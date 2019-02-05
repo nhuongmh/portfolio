@@ -1,4 +1,4 @@
-$purple: #966fd6;
+$purple: #ff7f50;
 $break: 768px;
 
 .basic-info {
@@ -36,6 +36,14 @@ $break: 768px;
     i {
       margin: 8px;
     }
+
+    a {
+      color: white;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   .info {
@@ -54,11 +62,18 @@ $break: 768px;
       &:last-child {
         border-bottom-style: none;
       }
+
+      .info-italic {
+        font-style: italic;
+        text-align: right;
+        width: 100%;
+      }
     }
 
     .info-text {
       color: white;
       margin: 0 20px;
+      text-align: center;
     }
   }
 }

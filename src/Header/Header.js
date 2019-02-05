@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import './Header.scss'
+import {Avatar} from 'antd'
+import avatar from './img/avatar.jpg'
 
 const Header = ({data}) => {
   const {name, career} = data
@@ -9,7 +11,7 @@ const Header = ({data}) => {
     <div className='header'>
       <div className='cover'>
         <div className='cover-overlay'/>
-        <div className='avatar'/>
+        <Avatar className='avatar' size={200} src={avatar} shape='square'/>
         <div className='name'><b>{name.last}</b> {name.first}</div>
         <div className='career'>{career}</div>
       </div>

@@ -14,11 +14,12 @@ const App = () => {
       {name: 'instagram', link: 'https://www.instagram.com/hilary.eve'}],
     contact: [{name: 'mail', contact: 'ttntram2496@gmail.com'},
       {name: 'phone', contact: '+84704113755'}],
-    information: [{title: 'Birthday', value: '02/04/1996'},
+    information: [{title: 'Birthday', value: '02 Apr 1996'},
       {title: 'Gender', value: 'female'},
       {title: 'Experiences', value: '2 years'}],
     objective: 'Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit, faucibus et vitae voluptate, in enim nullam magna elit ut.',
-    interests: 'Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra.'
+    language: [{title: 'Vietnamese', value: 'native'},
+      {title: 'English', value: 'fluent'}]
   }
 
   return (

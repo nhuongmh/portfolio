@@ -1,11 +1,12 @@
-$purple: #966fd6;
+$purple: #ff7f50;
+$reduxPurple: #ff7066;
 $break: 768px;
 
 .header {
   width: 100%;
 
   .cover {
-    background: url("./img/summer-lavender-flowers-l.jpg") no-repeat bottom center;
+    background: url("./img/coral-flower.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
     height: 20vw;
@@ -16,18 +17,12 @@ $break: 768px;
     .cover-overlay {
       width: 100%;
       height: 100%;
-      background: linear-gradient(to top, rgba(150, 111, 214, 1), rgba(150, 111, 214, 0.2));
+      background: linear-gradient(to top, rgba(255, 127, 80, 1), rgba(255, 127, 80, 0.2));
       border-bottom: $purple solid 1px;
     }
 
     .avatar {
-      background: url("./img/avatar.jpg") no-repeat center center;
-      background-size: contain;
-      border: white solid 1px;
       position: absolute;
-      width: 200px;
-      height: 200px;
-      border-radius: 10px;
       bottom: calc(8vw - 200px);
       left: 15vw;
       z-index: 1;
@@ -56,7 +51,7 @@ $break: 768px;
     }
 
     .career {
-      color: $purple;
+      color: $reduxPurple;
       position: absolute;
       font-size: 30px;
       line-height: 1;
