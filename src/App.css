@@ -30,3 +30,13 @@
     transform: rotate(360deg);
   }
 }
+
+.body-info {
+  display: flex;
+}
+
+@media all and (max-width: 768px) {
+  .body-info {
+    display: block;
+  }
+}

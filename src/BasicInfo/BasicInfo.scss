@@ -1,16 +1,17 @@
-$purple: #ff7f50;
+$coral: #ff7f50;
 $break: 768px;
 
 .basic-info {
-  background: $purple;
+  background: $coral;
   margin-left: 5vw;
   width: calc(20vw + 200px);
-  height: fit-content;
+  height: initial;
   padding: calc(224px - 8vw) 0 20px;
   @media all and (max-width: $break) {
     width: 100%;
     margin-left: 0;
     padding-top: calc(5vw + 200px);
+    height: 100%;
   }
 
   .media-social {
