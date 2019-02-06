@@ -137,7 +137,8 @@ const App = () => {
         description: ['Description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit']
       }]
     }]
-  const skills = [{title: 'C/C++', percent: 60},
+  const skills = [
+    {title: 'C/C++', percent: 60},
     {title: 'C#', percent: 60},
     {title: 'Html/CSS', percent: 80},
     {title: 'Javascript', percent: 80},
