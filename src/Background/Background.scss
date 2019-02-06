@@ -1,4 +1,4 @@
-$darkCoral: #ff7066;
+$coral: #f88379;
 $break: 768px;
 
 .background {
@@ -15,20 +15,18 @@ $break: 768px;
 
       h4 {
         white-space: pre-wrap;
-        color: $darkCoral;
+        color: $coral;
         font-weight: bold;
       }
     }
 
     .ant-list-item-content {
       display: block;
-      margin-left: 64px;
 
       i {
-        color: $darkCoral;
+        color: $coral;
         text-align: left;
         width: 100%;
-        margin: 16px;
       }
     }
   }

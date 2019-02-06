@@ -1,4 +1,5 @@
-$coral: #ff7f50;
+$coral: #f88379;
+$sand: #c8cba5;
 $break: 768px;
 
 .basic-info {
@@ -24,6 +25,10 @@ $break: 768px;
       color: white;
       font-size: 24px;
       margin: auto 8px;
+
+      &:hover {
+        color: $sand;
+      }
     }
   }
 
@@ -42,7 +47,7 @@ $break: 768px;
       color: white;
 
       &:hover {
-        text-decoration: underline;
+        color: $sand;
       }
     }
   }

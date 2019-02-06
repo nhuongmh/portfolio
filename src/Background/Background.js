@@ -13,11 +13,13 @@ const Background = ({data}) => {
                 className='card-list'
                 renderItem={content => (
                   <List.Item style={{display: 'block'}}>
-                    <List.Item.Meta avatar={<Avatar src={content.logo} shape='square' size={64}/>}
+                    <List.Item.Meta avatar={content.logo && <Avatar src={content.logo} shape='square' size={64}/>}
                                     title={content.title}
                                     description={content.daterange}/>
-                    <i>{content.subtitle}</i>
-                    <ul>{content.description.map((desc, idx) => <li key={idx}>{desc}</li>)}</ul>
+                    <i style={content.logo ? {marginLeft: '80px'} : {}}>{content.subtitle}</i>
+                    <ul style={content.logo ? {marginLeft: '64px'} : {}}>
+                      {content.description && content.description.map((desc, idx) => <li key={idx}>{desc}</li>)}
+                    </ul>
                   </List.Item>
                 )}/>
         </Card>)}

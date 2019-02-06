@@ -3,8 +3,9 @@ import './BasicInfo.scss'
 import {Icon, Divider, List} from 'antd'
 import PropTypes from 'prop-types'
 import cv from './data/CV20190205.pdf'
+import Skills from './Skills/Skills'
 
-const BasicInfo = ({data}) => {
+const BasicInfo = ({data, skills}) => {
   const {social, contact, information, objective, language} = data
 
   return (
@@ -25,12 +26,14 @@ const BasicInfo = ({data}) => {
       <WhiteSection title='BASIC INFORMATION' data={information}/>
       <WhiteSection title='OBJECTIVE' data={objective}/>
       <WhiteSection title='LANGUAGE' data={language}/>
+      <Skills data={skills}/>
     </div>
   )
 }
 
 BasicInfo.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
+  skills: PropTypes.array.isRequired
 }
 
 export default BasicInfo
