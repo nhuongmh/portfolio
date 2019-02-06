@@ -19,6 +19,9 @@ const Background = ({data}) => {
                     <i style={content.logo ? {marginLeft: '80px'} : {}}>{content.subtitle}</i>
                     <ul style={content.logo ? {marginLeft: '64px'} : {}}>
                       {content.description && content.description.map((desc, idx) => <li key={idx}>{desc}</li>)}
+                      {content.link && <li>
+                        Project is released on <a href={content.link} target='_blank'>{content.link}</a>
+                      </li>}
                     </ul>
                   </List.Item>
                 )}/>

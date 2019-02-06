@@ -23,7 +23,7 @@ const App = () => {
     information: [{title: 'Birthday', value: '02 Apr 1996'},
       {title: 'Gender', value: 'female'},
       {title: 'Experiences', value: '2 years'}],
-    objective: 'Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit, faucibus et vitae voluptate, in enim nullam magna elit ut.',
+    objective: 'To obtain a position that will enable me to utilize my problem solving skills and attention to detail to further develop my abilities in the field of computer science.',
     language: [{title: 'Vietnamese', value: 'native'},
       {title: 'English', value: 'fluent'}]
   }
@@ -43,21 +43,22 @@ const App = () => {
         title: 'Vietnam Esports',
         subtitle: 'Front-end Developer',
         daterange: 'Nov 2018 - present',
-        description: ['Job description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit',
+        description: ['Here, I build support tools for Shopee and some website for their partners. As the position is front-end developer, I design UI, UX to develop the features that users require.',
+          'I have contributed one significant project and some small ones to Shopee business but due to work reasons, I cannot show these projects here.',
           'Use: Javascript, Html, Sass, React, NodeJS, Webpack'],
         logo: ved
       }, {
         title: 'VNG Corporation',
         subtitle: 'Front-end Developer',
         daterange: 'Aug 2017 - Oct 2018',
-        description: ['Job description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit',
+        description: ['At Zalo Team, I joined in project Zalo Official Account. I work mostly in front-end part and a little in back-end. I learned about server-side rendering webpage here.',
           'Use: Java, Javascript, Html, CSS, Angular JS'],
         logo: vng
       }, {
         title: 'Smartdatics',
         subtitle: 'Front-end Development Internship',
         daterange: 'Jun 2017 - Aug 2017',
-        description: ['Job description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit',
+        description: ['At Smartdatics, I worked in many projects about studying abroad, bitcoin, ecommerce, etc. because Smardatics is an outsourcing company. My internship happened here and I have learnt about React basics also here.',
           'Use: Typescript, React, Redux, Html, CSS'],
         logo: smartdatics
       }]
@@ -67,20 +68,24 @@ const App = () => {
         title: 'Music Genre Recognition',
         subtitle: 'Thesis',
         daterange: 'Jan 2018 - Jun 2018',
-        description: ['Description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit',
-          'Use: Python']
+        description: ['My thesis is about how to give the correct music genre with a piece of music input.',
+          'I and one friend have researched artificial neural network, convolutional neural network, spectrogram of sound, etc. to complete this project.',
+          'We decided to use two models of ANN and CNN for deep learning in this field and when we combine two models, the accuracy is quite appreciable at 83 percent.']
       }, {
         title: 'Saola.me',
         subtitle: 'Smartdatics',
         daterange: 'Jun 2017 - Aug 2017',
-        description: ['Job description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit',
+        description: ['Saola.me is a project about studying abroad. This website connect people having the same concerns, give them a place for asking and sharing experience to others.',
+          'I developed a few pages on this website.',
           'Use: Typescript, React, Redux, Html, CSS']
       }, {
         title: 'Zalo Official Account',
         subtitle: 'Zalo',
         daterange: 'Aug 2017 - Oct 2018',
-        description: ['Job description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit',
-          'Use: Java, Javascript, Html, CSS, Angular JS']
+        description: ['Zalo Official Account is a solution for reaching Zalo huge amount of users. With ZOA, user can turn Zalo account into a news page, a shop or customer service.',
+          'My team develops three seperate child projects of ZOA. I work mostly in front-end but sometimes I help with back-end if necessary.',
+          'Use: Java, Javascript, Html, CSS, Angular JS'],
+        link: 'https://oa.zalo.me/home'
       }]
     }, {
       title: 'ACTIVITIES',
@@ -88,27 +93,27 @@ const App = () => {
         title: 'CSE Job Fair 2017',
         subtitle: 'Volunteers',
         daterange: 'Nov 2017',
-        description: ['Description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit']
+        description: ['My job here is helping the companies prepare booth and brochures as well as guiding visitors.']
       }, {
         title: 'Tiếp sức mùa thi 2016',
         subtitle: 'Volunteers',
         daterange: 'Jun 2016',
-        description: ['Description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit']
+        description: ['Volunteer like me instructed examinees registering profiles and designed media publications.']
       }, {
         title: 'CSE Job Fair 2015',
         subtitle: 'Volunteers',
         daterange: 'Dec 2015',
-        description: ['Description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit']
+        description: ['My job here is helping the companies prepare booth and brochures as well as guiding visitors.']
       }, {
         title: 'Tư vấn tuyển sinh Về trường 2015',
         subtitle: 'Volunteers',
         daterange: 'Jan 2015',
-        description: ['Description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit']
+        description: ['I came back to high school to introduce students there about my university.']
       }, {
         title: 'International Friendship Day 2014',
         subtitle: 'Volunteers',
         daterange: 'Dec 2014',
-        description: ['Description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit']
+        description: ['I supported Vietnamese abroad alumni in organizing the festival and guided visitors.']
       }]
     }, {
       title: 'CERTIFICATIONS',
@@ -134,7 +139,11 @@ const App = () => {
     }, {
       title: 'INTERESTS',
       list: [{
-        description: ['Description: Lorem ipsum dolor sit amet, morbi augue amet, gravida tellus neque non viverra, amet massa cras elit']
+        description: ['Music is my first interest. I like many kinds of music but I usually listen to Pop, Slow, Latin and Boléro. Besides, I play keyboards as a hobby.',
+          'I love family movies, especially some animated films made by Disney or Dreamworks.',
+          'I read books an hour a day. I have many books in categories such as autobiography, novel, fiction, science, etc.',
+          'Traveling is one of my favourite activities. It give me chances to experience our fantastic world more.',
+          'Playing sports has never been my strength. Though, I usually go swimming when I have free time.']
       }]
     }]
   const skills = [

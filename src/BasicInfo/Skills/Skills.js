@@ -7,10 +7,10 @@ const Skills = ({data}) => {
     <div className='info'>
       <Divider>SKILLS</Divider>
       {data.map((item, index) =>
-        <p className='info-text' key={index} style={{display: 'flex', textAlign: 'left'}}>
-          <b style={{width: '140px'}}>{item.title}</b>
+        <div className='info-text' key={index} style={{display: 'flex', textAlign: 'left'}}>
+          <div style={{width: '140px'}}>{item.title}</div>
           <Progress percent={item.percent} showInfo={false} strokeColor='#c8cba5'/>
-        </p>)}
+        </div>)}
     </div>)
 }
 
