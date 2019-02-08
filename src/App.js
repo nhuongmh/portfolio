@@ -65,9 +65,15 @@ const App = () => {
     }, {
       title: 'PROJECTS',
       list: [{
+        title: 'BKOOL',
+        subtitle: 'Assignment',
+        daterange: 'Oct 2016 - Dec 2016',
+        description: ['BKOOL is a programming language that we were assigned to write it a compiler. BKOOL is a very simple language having some basic operations.',
+          'This is a personal assignment of a subject named Principles of Programming Language. I have learned about how programming language works, what exactly is below the things like C or Pascal. In this subject, we used Scala.']
+      },{
         title: 'Music Genre Recognition',
         subtitle: 'Thesis',
-        daterange: 'Jan 2018 - Jun 2018',
+        daterange: 'Oct 2017 - Jun 2018',
         description: ['My thesis is about how to give the correct music genre with a piece of music input.',
           'I and one friend have researched artificial neural network, convolutional neural network, spectrogram of sound, etc. to complete this project.',
           'We decided to use two models of ANN and CNN for deep learning in this field and when we combine two models, the accuracy is quite appreciable at 83 percent.']
