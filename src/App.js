@@ -69,8 +69,9 @@ const App = () => {
         subtitle: 'Assignment',
         daterange: 'Oct 2016 - Dec 2016',
         description: ['BKOOL is a programming language that we were assigned to write it a compiler. BKOOL is a very simple language having some basic operations.',
-          'This is a personal assignment of a subject named Principles of Programming Language. I have learned about how programming language works, what exactly is below the things like C or Pascal. In this subject, we used Scala.']
-      },{
+          'This is a personal assignment of a subject named Principles of Programming Language. I have learned about how programming language works, what exactly is below the things like C or Pascal.',
+          'Use: Scala']
+      }, {
         title: 'Music Genre Recognition',
         subtitle: 'Thesis',
         daterange: 'Oct 2017 - Jun 2018',
