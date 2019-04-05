@@ -16,7 +16,7 @@ const App = () => {
   const basicData = {
     social: [{name: 'github', link: 'https://github.com/TramTran2496'},
       {name: 'linkedin', link: 'https://www.linkedin.com/in/tr%C3%A2m-tr%E1%BA%A7n-27a521112/'},
-      {name: 'facebook', link: 'https://www.facebook.com/TramTran2496'},
+      {name: 'facebook', link: 'https://www.facebook.com/tram.tranthingoc.2496'},
       {name: 'instagram', link: 'https://www.instagram.com/hilary.eve'}],
     contact: [{name: 'mail', contact: 'ttntram2496@gmail.com'},
       {name: 'phone', contact: '+84704113755'}],
