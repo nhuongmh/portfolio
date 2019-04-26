@@ -16,9 +16,9 @@ $break: 768px;
   }
 
   .media-social {
-    margin: 0 calc(10vw + 20px);
+    margin: 0 calc(10vw + 16px);
     @media all and (max-width: $break) {
-      margin: 0 calc(50vw - 80px);
+      margin: 0 calc(50vw - 88px);
     }
 
     i {
