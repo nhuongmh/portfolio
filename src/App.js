@@ -123,12 +123,14 @@ const App = () => {
         description: ['I supported Vietnamese abroad alumni in organizing the festival and guided visitors.']
       }]
     }, {
+      title: 'HONORS & AWARDS',
+      list: [{
+        title: 'Microsoft Youthspark Scholarship',
+        daterange: '2016 - 2018'
+      }]
+    }, {
       title: 'CERTIFICATIONS',
       list: [{
-        title: 'Agile Software Development with Scrum',
-        subtitle: 'issued by Axon Active Vietnam',
-        daterange: 'Nov 2017'
-      }, {
         title: 'IELTS Certificate with overall band 6.5',
         subtitle: 'issued by IDP',
         daterange: 'Sep 2017'
@@ -136,12 +138,10 @@ const App = () => {
         title: 'TOEIC Certificate with score 690',
         subtitle: 'issued by ETS',
         daterange: 'Jan 2016'
-      }]
-    }, {
-      title: 'HONORS & AWARDS',
-      list: [{
-        title: 'Microsoft Youthspark Scholarship',
-        daterange: '2016 - 2018'
+      }, {
+        title: 'Agile Software Development with Scrum',
+        subtitle: 'issued by Axon Active Vietnam',
+        daterange: 'Nov 2017'
       }]
     }, {
       title: 'INTERESTS',
@@ -154,15 +154,15 @@ const App = () => {
       }]
     }]
   const skills = [
-    {title: 'C/C++', percent: 60},
-    {title: 'C#', percent: 60},
-    {title: 'Html/CSS', percent: 80},
-    {title: 'Javascript', percent: 80},
-    {title: 'Python', percent: 40},
-    {title: 'Java', percent: 40},
-    {title: 'SQL', percent: 40},
-    {title: 'Self-learning', percent: 60},
-    {title: 'Teamwork', percent: 60}]
+    {title: 'C/C++', percent: 3.5},
+    {title: 'C#', percent: 3},
+    {title: 'Html/CSS', percent: 4},
+    {title: 'Javascript', percent: 4.5},
+    {title: 'Python', percent: 2},
+    {title: 'Java', percent: 2.5},
+    {title: 'SQL', percent: 2},
+    {title: 'Self-learning', percent: 4},
+    {title: 'Teamwork', percent: 3.5}]
 
   return (
     <>
