@@ -149,7 +149,7 @@ const App = () => {
         description: ['Music is my first interest. I like many kinds of music but I usually listen to Pop, Slow, Latin and Boléro. Besides, I play keyboards as a hobby.',
           'I love family movies, especially some animated films made by Disney or Dreamworks.',
           'I read books an hour a day. I have many books in categories such as autobiography, novel, fiction, science, etc.',
-          'Traveling is one of my favourite activities. It give me chances to experience our fantastic world more.',
+          'Traveling is one of my favourite activities. It gives me chances to experience our fantastic world.',
           'Playing sports has never been my strength. Though, I usually go swimming when I have free time.']
       }]
     }]
