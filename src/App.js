@@ -22,7 +22,7 @@ const App = () => {
       {name: 'phone', contact: '+84704113755'}],
     information: [{title: 'Birthday', value: '02 Apr 1996'},
       {title: 'Gender', value: 'female'},
-      {title: 'Experiences', value: '2 years'}],
+      {title: 'Experiences', value: '3 years'}],
     objective: 'To obtain a position that will enable me to utilize my problem solving skills and attention to detail to further develop my abilities in the field of computer science.',
     language: [{title: 'Vietnamese', value: 'native'},
       {title: 'English', value: 'fluent'}]

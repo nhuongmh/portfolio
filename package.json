@@ -6,7 +6,7 @@
   "dependencies": {
     "@types/react": "^16.8.1",
     "animate.css": "^3.7.0",
-    "antd": "^3.13.1",
+    "antd": "^4.6.4",
     "customize-cra": "^0.2.11",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",

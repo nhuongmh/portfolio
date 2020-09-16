@@ -1,5 +1,5 @@
 import React from 'react'
-import {Divider, Rate} from 'antd'
+import {Divider, Progress} from 'antd'
 import PropTypes from 'prop-types'
 import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.min.css'
@@ -14,7 +14,7 @@ const Skills = ({data}) => {
             <div style={{width: '140px'}}>{item.title}</div>
           </ScrollAnimation>
           <ScrollAnimation animateIn='jackInTheBox' style={{textAlign: 'right', width: '100%'}} animateOnce offset={0}>
-            <Rate disabled defaultValue={item.percent} allowHalf/>
+            <Progress percent={item.percent * 20} strokeColor={{ from: '#c8cba5', to: '#c8cba5'}} showInfo={false}/>
           </ScrollAnimation>
         </div>)}
     </div>)
