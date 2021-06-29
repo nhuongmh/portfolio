@@ -205,8 +205,14 @@ const App = () => {
       title: "HONORS & AWARDS",
       list: [
         {
+          title: "Vingroup Science and Technology Scholarship Program for Overseas Study",
+          daterange: "2021 - 2022",
+          description: "https://vinuni.edu.vn/masters- ph-d/announcement-2/"
+        },
+        {
           title: "Microsoft Youthspark Scholarship",
-          daterange: "2016 - 2018"
+          daterange: "2016 - 2018",
+          description: "http://en.hocbongnusinh.com/microsoft- youthspark-scholarship-women-technologies-2.html"
         }
       ]
     },
