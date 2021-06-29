@@ -212,7 +212,7 @@ const App = () => {
         {
           title: "Microsoft Youthspark Scholarship",
           daterange: "2016 - 2018",
-          description: "http://en.hocbongnusinh.com/microsoft- youthspark-scholarship-women-technologies-2.html"
+          description: "https://en.hocbongnusinh.com/microsoft-youthspark-scholarship-for-women-in-technologies-2018-2019.html"
         }
       ]
     },
