@@ -31,7 +31,7 @@ const Background = ({data}) => {
                       {content.link &&
                       <ScrollAnimation animateIn='fadeInRightBig' animateOnce offset={0}>
                         <li>
-                          Further information on <a href={content.link}
+                          Further information at <a href={content.link}
                                                     target='_blank'
                                                     rel='noopener noreferrer'>{content.link}</a>
                         </li>
