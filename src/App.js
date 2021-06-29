@@ -207,12 +207,12 @@ const App = () => {
         {
           title: "Vingroup Science and Technology Scholarship Program for Overseas Study",
           daterange: "2021 - 2022",
-          description: "https://vinuni.edu.vn/masters- ph-d/announcement-2/"
+          link: "https://scholarships.vinuni.edu.vn/"
         },
         {
           title: "Microsoft Youthspark Scholarship",
           daterange: "2016 - 2018",
-          description: "https://en.hocbongnusinh.com/microsoft-youthspark-scholarship-for-women-in-technologies-2018-2019.html"
+          link: "https://en.hocbongnusinh.com/microsoft-youthspark-scholarship-for-women-in-technologies-2018-2019.html"
         }
       ]
     },
