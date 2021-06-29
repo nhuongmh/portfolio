@@ -14,7 +14,7 @@ const Skills = ({data}) => {
             <div style={{width: '140px'}}>{item.title}</div>
           </ScrollAnimation>
           <ScrollAnimation animateIn='jackInTheBox' style={{textAlign: 'right', width: '100%'}} animateOnce offset={0}>
-            <Progress percent={item.percent * 20} strokeColor={{ from: '#c8cba5', to: '#c8cba5'}} showInfo={false}/>
+            <Progress percent={item.percent * 20} strokeColor={{ from: '#A76945', to: '#A76945'}} showInfo={false}/>
           </ScrollAnimation>
         </div>)}
     </div>)
