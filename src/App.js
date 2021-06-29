@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./Header/Header";
 import BasicInfo from "./BasicInfo/BasicInfo";
 import Background from "./Background/Background";
+import unimelb from "./img/unimelb.png";
 import bku from "./img/bku.png";
 import ved from "./img/vietnam-esports-logo.jpg";
 import vng from "./img/vng.png";
@@ -18,8 +19,8 @@ import {
 
 const App = () => {
   const headerData = {
-    name: { first: "Thi Ngoc Tram", last: "Tran" },
-    career: "Software Engineer"
+    name: { first: "Tram", last: "Tran Thi Ngoc" },
+    career: "Student"
   };
   const basicData = {
     social: [
@@ -58,6 +59,13 @@ const App = () => {
       title: "EDUCATION",
       list: [
         {
+          title: "The University of Melbourne",
+          subtitle: "Master of Computer Science",
+          daterange: "March 2021 - present",
+          description: [],
+          logo: unimelb
+        },
+        {
           title: "Ho Chi Minh University of Technology",
           subtitle: "Computer Science",
           daterange: "Sep 2014 - Jun 2018",
@@ -72,10 +80,10 @@ const App = () => {
         {
           title: "Vietnam Esports",
           subtitle: "Front-end Developer",
-          daterange: "Nov 2018 - present",
+          daterange: "Nov 2018 - February 2021",
           description: [
             "Here, I build support tools for Shopee and some website for their partners. As the position is front-end developer, I design UI, UX to develop the features that users require.",
-            "I have contributed one significant project and some small ones to Shopee business but due to work reasons, I cannot show these projects here.",
+            "I have contributed significant projects to Shopee business in Vietnam.",
             "Use: Javascript, Html, Sass, React, NodeJS, Webpack"
           ],
           logo: ved
@@ -208,7 +216,7 @@ const App = () => {
         {
           title: "IELTS Certificate with overall band 6.5",
           subtitle: "issued by IDP",
-          daterange: "Sep 2017"
+          daterange: "Nov 2019"
         },
         {
           title: "TOEIC Certificate with score 690",
@@ -242,11 +250,13 @@ const App = () => {
     { title: "C#", percent: 3 },
     { title: "Html/CSS", percent: 4 },
     { title: "Javascript", percent: 4.5 },
-    { title: "Python", percent: 2 },
+    { title: "Python", percent: 3 },
     { title: "Java", percent: 2.5 },
+    { title: "Haskell", percent: 2 },
+    { title: "Prolog", percent: 2 },
     { title: "SQL", percent: 2 },
     { title: "Self-learning", percent: 4 },
-    { title: "Teamwork", percent: 3.5 }
+    { title: "Teamwork", percent: 4 }
   ];
 
   return (
