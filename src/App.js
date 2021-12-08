@@ -114,13 +114,24 @@ const App = () => {
       title: "PROJECTS",
       list: [
         {
-          title: "BKOOL",
-          subtitle: "Assignment",
-          daterange: "Oct 2016 - Dec 2016",
+          title: "Zalo Official Account",
+          subtitle: "Zalo",
+          daterange: "Aug 2017 - Oct 2018",
           description: [
-            "BKOOL is a programming language that we were assigned to write it a compiler. BKOOL is a very simple language having some basic operations.",
-            "This is a personal assignment of a subject named Principles of Programming Language. I have learned about how programming language works, what exactly is below the things like C or Pascal.",
-            "Use: Scala"
+            "Zalo Official Account is a solution for reaching Zalo huge amount of users. With ZOA, user can turn Zalo account into a news page, a shop or customer service.",
+            "My team develops three seperate child projects of ZOA. I work mostly in front-end but sometimes I help with back-end if necessary.",
+            "Use: Java, Javascript, Html, CSS, Angular JS"
+          ],
+          link: "https://oa.zalo.me/home"
+        },
+        {
+          title: "Saola.me",
+          subtitle: "Smartdatics",
+          daterange: "Jun 2017 - Aug 2017",
+          description: [
+            "Saola.me is a project about studying abroad. This website connect people having the same concerns, give them a place for asking and sharing experience to others.",
+            "I developed a few pages on this website.",
+            "Use: Typescript, React, Redux, Html, CSS"
           ]
         },
         {
@@ -134,25 +145,14 @@ const App = () => {
           ]
         },
         {
-          title: "Saola.me",
-          subtitle: "Smartdatics",
-          daterange: "Jun 2017 - Aug 2017",
+          title: "BKOOL",
+          subtitle: "Assignment",
+          daterange: "Oct 2016 - Dec 2016",
           description: [
-            "Saola.me is a project about studying abroad. This website connect people having the same concerns, give them a place for asking and sharing experience to others.",
-            "I developed a few pages on this website.",
-            "Use: Typescript, React, Redux, Html, CSS"
+            "BKOOL is a programming language that we were assigned to write it a compiler. BKOOL is a very simple language having some basic operations.",
+            "This is a personal assignment of a subject named Principles of Programming Language. I have learned about how programming language works, what exactly is below the things like C or Pascal.",
+            "Use: Scala"
           ]
-        },
-        {
-          title: "Zalo Official Account",
-          subtitle: "Zalo",
-          daterange: "Aug 2017 - Oct 2018",
-          description: [
-            "Zalo Official Account is a solution for reaching Zalo huge amount of users. With ZOA, user can turn Zalo account into a news page, a shop or customer service.",
-            "My team develops three seperate child projects of ZOA. I work mostly in front-end but sometimes I help with back-end if necessary.",
-            "Use: Java, Javascript, Html, CSS, Angular JS"
-          ],
-          link: "https://oa.zalo.me/home"
         }
       ]
     },
