@@ -39,8 +39,10 @@ const BasicInfo = ({ data, skills }) => {
             animateOnce
             offset={0}
           >
-            {item.icon}
-            {item.contact}
+            <a href={`${item.type}${item.contact}`}>
+              {item.icon}
+              {item.contact}
+            </a>
           </ScrollAnimation>
         ))}
         <ScrollAnimation animateIn="fadeIn" delay={500} animateOnce offset={0}>

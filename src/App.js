@@ -39,8 +39,8 @@ const App = () => {
       }
     ],
     contact: [
-      { icon: <MailOutlined />, contact: "ttntram2496@gmail.com" },
-      { icon: <PhoneOutlined />, contact: "+84704113755" }
+      { icon: <MailOutlined />, contact: "ttntram2496@gmail.com", type: "mailto:" },
+      { icon: <PhoneOutlined />, contact: "+84704113755", type: "tel:" }
     ],
     information: [
       { title: "Birthday", value: "02 Apr 1996" },
