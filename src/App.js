@@ -5,7 +5,7 @@ import BasicInfo from "./BasicInfo/BasicInfo";
 import Background from "./Background/Background";
 import bku from "./img/bku.png";
 import ampere from "./img/ampere.png";
-import ampere_char from "./img/ampere-char.png"
+import ampere_char from "./img/ampere-char.png";
 import arrive from "./img/arrive.webp";
 import {
   GithubFilled,
@@ -13,13 +13,13 @@ import {
   TwitterSquareFilled,
   MailOutlined,
   PhoneOutlined,
-  DeploymentUnitOutlined
+  DeploymentUnitOutlined,
 } from "@ant-design/icons";
 
 const App = () => {
   const headerData = {
-    name: { first: "Nhuong", last: "Hoang Minh" },
-    career: "Software Engineer"
+    name: { first: "Nhuong", last: "M. Hoang" },
+    career: "Software Engineer",
   };
   const basicData = {
     social: [
@@ -43,8 +43,8 @@ const App = () => {
       {
         icon: <DeploymentUnitOutlined />,
         contact: "minhnhuong.com",
-        type: "https://"
-      }
+        type: "https://",
+      },
     ],
     information: [
       { title: "Birthday", value: "06 Jun 1996" },
@@ -53,9 +53,7 @@ const App = () => {
     ],
     objective:
       "To obtain a position that will enable me to utilize my problem solving skills and attention to detail to further develop my abilities in the field of computer science.",
-    language: [
-      { title: "English", value: "good" },
-    ],
+    language: [{ title: "English", value: "good" }],
   };
   const background = [
     {
@@ -66,9 +64,9 @@ const App = () => {
           subtitle: "Electrical & Electronics Engineering",
           daterange: "Sep 2014 - Jun 2018",
           description: ["GPA: 7.5/10"],
-          logo: bku
-        }
-      ]
+          logo: bku,
+        },
+      ],
     },
     {
       title: "WORK EXPERIENCE",
@@ -80,20 +78,20 @@ const App = () => {
           description: [
             "Here, I build support tools for Shopee and some website for their partners. As the position is front-end developer, I design UI, UX to develop the features that users require.",
             "I have contributed significant projects to Shopee business in Vietnam.",
-            "Use: Javascript, Html, Sass, React, NodeJS, Webpack"
+            "Use: Javascript, Html, Sass, React, NodeJS, Webpack",
           ],
-          logo: ampere_char
+          logo: ampere_char,
         },
         {
           title: "Arrive Technologies",
           subtitle: "Logic Design Engineer",
           daterange: "Jun 2018 - Nov 2018",
           description: [
-            "At Arrive, I joined Design and implement logic circuit target in telecommunication application."
+            "At Arrive, I joined Design and implement logic circuit target in telecommunication application.",
           ],
-          logo: arrive
+          logo: arrive,
         },
-      ]
+      ],
     },
     {
       title: "PROJECTS",
@@ -105,9 +103,9 @@ const App = () => {
           description: [
             "Zalo Official Account is a solution for reaching Zalo huge amount of users. With ZOA, user can turn Zalo account into a news page, a shop or customer service.",
             "My team develops three seperate child projects of ZOA. I work mostly in front-end but sometimes I help with back-end if necessary.",
-            "Use: Java, Javascript, Html, CSS, Angular JS"
+            "Use: Java, Javascript, Html, CSS, Angular JS",
           ],
-          link: "https://oa.zalo.me/home"
+          link: "https://oa.zalo.me/home",
         },
         {
           title: "Saola.me",
@@ -116,8 +114,8 @@ const App = () => {
           description: [
             "Saola.me is a project about studying abroad. This website connect people having the same concerns, give them a place for asking and sharing experience to others.",
             "I developed a few pages on this website.",
-            "Use: Typescript, React, Redux, Html, CSS"
-          ]
+            "Use: Typescript, React, Redux, Html, CSS",
+          ],
         },
         {
           title: "Music Genre Recognition",
@@ -126,15 +124,10 @@ const App = () => {
           description: [
             "My thesis is about how to give the correct music genre with a piece of music input.",
             "I and one friend have researched artificial neural network, convolutional neural network, spectrogram of sound, etc. to complete this project.",
-            "We decided to use two models of ANN and CNN for deep learning in this field and when we combine two models, the accuracy is quite appreciable at 83 percent."
-          ]
+            "We decided to use two models of ANN and CNN for deep learning in this field and when we combine two models, the accuracy is quite appreciable at 83 percent.",
+          ],
         },
-      ]
-    },
-    {
-      title: "ACTIVITIES",
-      list: [
-      ]
+      ],
     },
     {
       title: "CERTIFICATIONS",
@@ -142,14 +135,14 @@ const App = () => {
         {
           title: "IELTS Certificate with overall band 6.5",
           subtitle: "issued by IDP",
-          daterange: "Nov 2019"
+          daterange: "Nov 2019",
         },
         {
           title: "TOEIC Certificate with score 690",
           subtitle: "issued by ETS",
-          daterange: "Jan 2016"
+          daterange: "Jan 2016",
         },
-      ]
+      ],
     },
     {
       title: "INTERESTS",
@@ -160,24 +153,36 @@ const App = () => {
             "I love family movies, especially some animated films made by Disney or Dreamworks.",
             "I read books an hour a day. I have many books in categories such as autobiography, novel, fiction, science, etc.",
             "Traveling is one of my favourite activities. It gives me chances to experience our fantastic world.",
-            "Playing sports has never been my strength. Though, I usually go swimming when I have free time."
-          ]
-        }
-      ]
-    }
+            "Playing sports has never been my strength. Though, I usually go swimming when I have free time.",
+          ],
+        },
+      ],
+    },
   ];
   const skills = [
-    { title: "C/C++", percent: 3.5 },
-    { title: "C#", percent: 3 },
-    { title: "Html/CSS", percent: 4 },
-    { title: "Javascript", percent: 4.5 },
-    { title: "Python", percent: 3 },
-    { title: "Java", percent: 2.5 },
-    { title: "Haskell", percent: 2 },
-    { title: "Prolog", percent: 2 },
-    { title: "SQL", percent: 2 },
-    { title: "Self-learning", percent: 4 },
-    { title: "Teamwork", percent: 4 }
+    {
+      title: "Programming Language",
+      value: ["Java", "C/C++", "Golang", "Python"],
+    },
+    {
+      title: "Framework",
+      value: ["Spring Boot", "VueJS"],
+    },
+    {
+      title: "Database",
+      value: ["MySQL", "PostgresQL"],
+    },
+    {
+      title: "Other",
+      value: [
+        "Git",
+        "Docker",
+        "Linux Kernel",
+        "Embeded Programming",
+        "Cloud Computing",
+        "High Perfomance Computing",
+      ],
+    },
   ];
 
   return (

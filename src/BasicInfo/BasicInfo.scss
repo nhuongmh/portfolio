@@ -13,6 +13,7 @@ $break: 768px;
     margin-left: 0;
     padding-top: calc(5vw + 200px);
     height: 100%;
+    padding-bottom: 100px;
   }
 
   .media-social {
@@ -35,7 +36,7 @@ $break: 768px;
 
   .contact {
     color: white;
-    margin: 10px 10vw;
+    margin: 10px 7vw 10px calc(9vw + 14px);
     @media all and (max-width: $break) {
       margin: 10px calc(50vw - 100px);
     }
@@ -60,10 +61,10 @@ $break: 768px;
 
     .info-item {
       color: white;
-      margin: 0 10vw;
+      margin: 0 6vw;
       border-bottom-style: dashed;
       @media all and (max-width: $break) {
-        margin: 0 calc(50vw - 100px);
+        margin: 0 calc(35vw - 100px);
       }
 
       &:last-child {

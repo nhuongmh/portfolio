@@ -50,12 +50,12 @@ $break: 768px;
     }
 
     .career {
-      color: $coral;
+      color: #0958d9;
       position: absolute;
       font-size: 30px;
       line-height: 1;
-      bottom: calc(4vw - 115px);
-      left: calc(25vw + 230px);
+      bottom: calc(5vw - 100px);
+      left: calc(33vw);
       z-index: 1;
       @media all and (max-width: $break) {
         font-size: 20px;

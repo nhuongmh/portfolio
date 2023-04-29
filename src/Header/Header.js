@@ -13,7 +13,7 @@ const Header = ({ data }) => {
         <div className="cover-overlay" />
         <Avatar className="avatar" size={200} src={avatar} shape="square" />
         <div className="name">
-          <b>{name.first}</b> {name.last}
+          {name.first} {name.last}
         </div>
         <div className="career">{career}</div>
       </div>

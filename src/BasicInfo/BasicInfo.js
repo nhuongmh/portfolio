@@ -48,7 +48,7 @@ const BasicInfo = ({ data, skills }) => {
         <AnimationOnScroll animateIn="animate__bounceIn" delay={500} animateOnce offset={0}>
           <a href={cv} download>
             <FilePdfOutlined />
-            Get my resume
+            Résumé
           </a>
         </AnimationOnScroll>
       </div>
