@@ -2,8 +2,7 @@ import React from 'react'
 import './Background.scss'
 import {Card, List, Avatar} from 'antd'
 import PropTypes from 'prop-types'
-import ScrollAnimation from 'react-animate-on-scroll'
-import 'animate.css/animate.min.css'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Background = ({data}) => {
   return (
@@ -15,27 +14,27 @@ const Background = ({data}) => {
                 className='card-list'
                 renderItem={content => (
                   <List.Item style={{display: 'block'}}>
-                    <ScrollAnimation animateIn='fadeInRightBig' animateOnce offset={0}>
+                    <AnimationOnScroll animateIn='fadeInRightBig' animateOnce offset={0}>
                       <List.Item.Meta avatar={content.logo && <Avatar src={content.logo} shape='square' size={64}/>}
                                       title={content.title}
                                       description={content.daterange}/>
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn='fadeInRightBig' animateOnce offset={0}>
+                    </AnimationOnScroll>
+                    <AnimationOnScroll animateIn='fadeInRightBig' animateOnce offset={0}>
                       <i style={content.logo ? {marginLeft: '80px'} : {}}>{content.subtitle}</i>
-                    </ScrollAnimation>
+                    </AnimationOnScroll>
                     <ul style={content.logo ? {marginLeft: '64px'} : {}}>
                       {content.description && content.description.map((desc, idx) =>
-                        <ScrollAnimation key={idx} animateIn='fadeInRightBig' animateOnce offset={0}>
+                        <AnimationOnScroll key={idx} animateIn='fadeInRightBig' animateOnce offset={0}>
                           <li>{desc}</li>
-                        </ScrollAnimation>)}
+                        </AnimationOnScroll>)}
                       {content.link &&
-                      <ScrollAnimation animateIn='fadeInRightBig' animateOnce offset={0}>
+                      <AnimationOnScroll animateIn='fadeInRightBig' animateOnce offset={0}>
                         <li>
                           Further information at <a href={content.link}
                                                     target='_blank'
                                                     rel='noopener noreferrer'>{content.link}</a>
                         </li>
-                      </ScrollAnimation>}
+                      </AnimationOnScroll>}
                     </ul>
                   </List.Item>
                 )}/>
