@@ -47,9 +47,9 @@ const App = () => {
       },
     ],
     information: [
-      { title: "Birthday", value: "06 Jun 1996" },
+      { title: "Birthday", value: "Jun 1996" },
       { title: "Location", value: "D7, HCMC" },
-      { title: "Experiences", value: "4 years" },
+      { title: "Experiences", value: "4.5 years" },
     ],
     objective:
       "To obtain a position that will enable me to utilize my problem solving skills and attention to detail to further develop my abilities in the field of computer science.",
@@ -61,9 +61,9 @@ const App = () => {
       list: [
         {
           title: "Ho Chi Minh University of Technology",
-          subtitle: "Electrical & Electronics Engineering",
+          subtitle: "BE, Electrical & Electronics Engineering",
           daterange: "Sep 2014 - Jun 2018",
-          description: ["GPA: 7.5/10"],
+          description: ["GPA: 7.5/10", "Thesis: Facial Expression Recognition on Embeded System"],
           logo: bku,
         },
       ],
@@ -73,12 +73,14 @@ const App = () => {
       list: [
         {
           title: "Ampere Computing VN",
-          subtitle: "Platform Validation Engineer",
+          subtitle: "Senior Platform Validation Engineer",
           daterange: "Nov 2018 - Present",
           description: [
-            "Here, I build support tools for Shopee and some website for their partners. As the position is front-end developer, I design UI, UX to develop the features that users require.",
-            "I have contributed significant projects to Shopee business in Vietnam.",
-            "Use: Javascript, Html, Sass, React, NodeJS, Webpack",
+            "Develop automation test tool (GUI/Web) for server system.",
+            "Develop virtual board system for tools coverage testing",
+            "Develop testing scripts, framework for ARM64 server chip on Linux/Windows environment",
+            "Lead small team with 4 people",
+            "Tech stack: Java Spring Boot, Java Swing, Golang, Bash, PowerShell, Python, VueJS",
           ],
           logo: ampere_char,
         },
@@ -87,7 +89,9 @@ const App = () => {
           subtitle: "Logic Design Engineer",
           daterange: "Jun 2018 - Nov 2018",
           description: [
-            "At Arrive, I joined Design and implement logic circuit target in telecommunication application.",
+            "Joined Design and implement logic circuit target in telecommunication application (SONET/SDH).",
+            "Implement firmware for telecommunication chip on FPGA-based embeded processor",
+            "Technologies used: Verilog, C/C++"
           ],
           logo: arrive,
         },
@@ -97,9 +101,9 @@ const App = () => {
       title: "PROJECTS",
       list: [
         {
-          title: "Zalo Official Account",
-          subtitle: "Zalo",
-          daterange: "Aug 2017 - Oct 2018",
+          title: "Platform Validation Tool",
+          subtitle: "Ampere",
+          daterange: "Aug 2021 - Present",
           description: [
             "Zalo Official Account is a solution for reaching Zalo huge amount of users. With ZOA, user can turn Zalo account into a news page, a shop or customer service.",
             "My team develops three seperate child projects of ZOA. I work mostly in front-end but sometimes I help with back-end if necessary.",
@@ -108,17 +112,51 @@ const App = () => {
           link: "https://oa.zalo.me/home",
         },
         {
-          title: "Saola.me",
-          subtitle: "Smartdatics",
-          daterange: "Jun 2017 - Aug 2017",
+          title: "Virtual Board System",
+          subtitle: "Ampere",
+          daterange: "Feb 2023 - Present",
           description: [
-            "Saola.me is a project about studying abroad. This website connect people having the same concerns, give them a place for asking and sharing experience to others.",
-            "I developed a few pages on this website.",
-            "Use: Typescript, React, Redux, Html, CSS",
+            "Zalo Official Account is a solution for reaching Zalo huge amount of users. With ZOA, user can turn Zalo account into a news page, a shop or customer service.",
+            "My team develops three seperate child projects of ZOA. I work mostly in front-end but sometimes I help with back-end if necessary.",
+            "Use: Java, Javascript, Html, CSS, Angular JS",
           ],
+          link: "https://oa.zalo.me/home",
         },
         {
-          title: "Music Genre Recognition",
+          title: "Candy with Bros",
+          subtitle: "Personal",
+          daterange: "Jun 2020 - Aug 2021",
+          description: [
+            "Nirvanas is GNU/Linux distro that based on OpenSUSE that build for developers. It come with many tools/applications for many type of development purpose while remove all unnessary apps",
+            "This can be used for online dating, people can chat and play game on the same time, ... I configured and built the Nirvanas",
+            "Tech stack: GNU/Linux",
+          ],
+          repository: "nirvanas.nhuongmh.github.io",
+        },
+        {
+          title: "Dev Life Assistant",
+          subtitle: "Personal",
+          daterange: "Jun 2020 - Aug 2021",
+          description: [
+            "Dev Life Assistant is a lighweight webapp to manage work life balance of developer on daily basis. It includes some todo list, notification, periodic remider, save data note, ..",
+            "I configured and built the Nirvanas",
+            "Tech stack: GNU/Linux",
+          ],
+          repository: "nirvanas.nhuongmh.github.io",
+        },
+        {
+          title: "goMosaic",
+          subtitle: "Personal",
+          daterange: "Jun 2020 - Aug 2021",
+          description: [
+            "goMosaic is small web app that generate art picture based on mathematic function",
+            "I configured and built the Nirvanas",
+            "Tech stack: GNU/Linux",
+          ],
+          repository: "nirvanas.nhuongmh.github.io",
+        },
+        {
+          title: "Facial Expression Recognition",
           subtitle: "Thesis",
           daterange: "Oct 2017 - Jun 2018",
           description: [
@@ -133,14 +171,9 @@ const App = () => {
       title: "CERTIFICATIONS",
       list: [
         {
-          title: "IELTS Certificate with overall band 6.5",
-          subtitle: "issued by IDP",
-          daterange: "Nov 2019",
-        },
-        {
-          title: "TOEIC Certificate with score 690",
+          title: "TOEIC Certificate with score 780",
           subtitle: "issued by ETS",
-          daterange: "Jan 2016",
+          daterange: "Jun 2018",
         },
       ],
     },
@@ -152,8 +185,10 @@ const App = () => {
             "Music is my first interest. I like many kinds of music but I usually listen to Pop, Slow, Latin and Boléro. Besides, I play keyboards as a hobby.",
             "I love family movies, especially some animated films made by Disney or Dreamworks.",
             "I read books an hour a day. I have many books in categories such as autobiography, novel, fiction, science, etc.",
-            "Traveling is one of my favourite activities. It gives me chances to experience our fantastic world.",
-            "Playing sports has never been my strength. Though, I usually go swimming when I have free time.",
+            "Sometimes I usually do outdoor photography with my Sony A600.",
+            "As electronics engineering is my major in university, I still keep fascinating about it, I learning and building some amateur radio stuff in free time",
+            "Writing is my favorite thing to do when I have something in my mind",
+            "I usually go running.",
           ],
         },
       ],
@@ -162,11 +197,11 @@ const App = () => {
   const skills = [
     {
       title: "Programming Language",
-      value: ["Java", "C/C++", "Golang", "Python"],
+      value: ["Java", "Golang", "C/C++", "Python"],
     },
     {
       title: "Framework",
-      value: ["Spring Boot", "VueJS"],
+      value: ["Spring Boot", "Gin", "VueJS"],
     },
     {
       title: "Database",
@@ -178,9 +213,8 @@ const App = () => {
         "Git",
         "Docker",
         "Linux Kernel",
-        "Embeded Programming",
+        "Computer System",
         "Cloud Computing",
-        "High Perfomance Computing",
       ],
     },
   ];

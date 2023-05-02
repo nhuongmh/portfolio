@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './Header.scss'
 import {Avatar} from 'antd'
-import avatar from './img/avatar.jpg'
+import avatar from './img/IMG_0338.jpg'
 
 const Header = ({ data }) => {
   const { name, career } = data;
