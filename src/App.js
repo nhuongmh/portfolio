@@ -53,7 +53,10 @@ const App = () => {
     ],
     objective:
       "To obtain a position that will enable me to utilize my problem solving skills and attention to detail to further develop my abilities in the field of computer science.",
-    language: [{ title: "English", value: "good" }],
+    language: [
+      { title: "Vietnamese", value: "native" },
+      { title: "English", value: "good" },
+    ],
   };
   const background = [
     {

@@ -1,6 +1,6 @@
 {
   "name": "my-resume",
-  "homepage": "http://tramtran2496.github.io/my-resume",
+  "homepage": "http://nhuongmh.github.io/",
   "version": "0.2.3",
   "private": true,
   "dependencies": {
@@ -24,6 +24,7 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
