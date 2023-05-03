@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e091c29.css",
+    "main.js": "/static/js/main.b4cb9fcc.js",
+    "static/media/1527839423059.jpg": "/static/media/1527839423059.57346920d2ac804e7fda.jpg",
+    "static/media/IMG_0338.jpg": "/static/media/IMG_0338.1a3e479f373fbf51ad70.jpg",
+    "static/media/ampere-char.png": "/static/media/ampere-char.d34db8c5c51684f0226f.png",
+    "static/media/arrive.webp": "/static/media/arrive.094928b87da3a605aa6a.webp",
+    "index.html": "/index.html",
+    "main.1e091c29.css.map": "/static/css/main.1e091c29.css.map",
+    "main.b4cb9fcc.js.map": "/static/js/main.b4cb9fcc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e091c29.css",
+    "static/js/main.b4cb9fcc.js"
+  ]
+}
