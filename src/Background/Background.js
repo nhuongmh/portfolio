@@ -14,21 +14,21 @@ const Background = ({data}) => {
                 className='card-list'
                 renderItem={content => (
                   <List.Item style={{display: 'block'}}>
-                    <AnimationOnScroll animateIn='fadeInRightBig' animateOnce offset={0}>
+                    <AnimationOnScroll animateIn='animate__fadeInRightBig' animateOnce offset={0}>
                       <List.Item.Meta avatar={content.logo && <Avatar src={content.logo} shape='square' size={64}/>}
                                       title={content.title}
                                       description={content.daterange}/>
                     </AnimationOnScroll>
-                    <AnimationOnScroll animateIn='fadeInRightBig' animateOnce offset={0}>
+                    <AnimationOnScroll animateIn='animate__fadeInRightBig' animateOnce offset={0}>
                       <i style={content.logo ? {marginLeft: '80px'} : {}}>{content.subtitle}</i>
                     </AnimationOnScroll>
                     <ul style={content.logo ? {marginLeft: '64px'} : {}}>
                       {content.description && content.description.map((desc, idx) =>
-                        <AnimationOnScroll key={idx} animateIn='fadeInRightBig' animateOnce offset={0}>
+                        <AnimationOnScroll key={idx} animateIn='animate__fadeInRightBig' animateOnce offset={0}>
                           <li>{desc}</li>
                         </AnimationOnScroll>)}
                       {content.link &&
-                      <AnimationOnScroll animateIn='fadeInRightBig' animateOnce offset={0}>
+                      <AnimationOnScroll animateIn='animate__fadeInRightBig' animateOnce offset={0}>
                         <li>
                           Further information at <a href={content.link}
                                                     target='_blank'

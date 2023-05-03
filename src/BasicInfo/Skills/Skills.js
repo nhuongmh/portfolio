@@ -8,7 +8,7 @@ const Skills = ({ data }) => {
   return (
     <div className="info">
       <Divider>SKILLS</Divider>
-        <AnimationOnScroll animateIn="jackInTheBox" animateOnce offset={0}>
+        <AnimationOnScroll animateIn="animate__jackInTheBox" animateOnce offset={0}>
         {!Array.isArray(data) ? (
         <div className="info-text">{data}</div>
       ) : (
