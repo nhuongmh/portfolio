@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e091c29.css",
-    "main.js": "/static/js/main.b4cb9fcc.js",
-    "static/media/1527839423059.jpg": "/static/media/1527839423059.57346920d2ac804e7fda.jpg",
-    "static/media/IMG_0338.jpg": "/static/media/IMG_0338.1a3e479f373fbf51ad70.jpg",
-    "static/media/ampere-char.png": "/static/media/ampere-char.d34db8c5c51684f0226f.png",
-    "static/media/arrive.webp": "/static/media/arrive.094928b87da3a605aa6a.webp",
-    "index.html": "/index.html",
-    "main.1e091c29.css.map": "/static/css/main.1e091c29.css.map",
-    "main.b4cb9fcc.js.map": "/static/js/main.b4cb9fcc.js.map"
+    "main.css": "/portfolio/static/css/main.5d762357.css",
+    "main.js": "/portfolio/static/js/main.4cac08a2.js",
+    "static/media/1527839423059.jpg": "/portfolio/static/media/1527839423059.57346920d2ac804e7fda.jpg",
+    "static/media/IMG_0226.jpg": "/portfolio/static/media/IMG_0226.a50973911db37f9ae7c0.jpg",
+    "static/media/ampere-char.png": "/portfolio/static/media/ampere-char.d34db8c5c51684f0226f.png",
+    "static/media/arrive.webp": "/portfolio/static/media/arrive.094928b87da3a605aa6a.webp",
+    "index.html": "/portfolio/index.html",
+    "main.5d762357.css.map": "/portfolio/static/css/main.5d762357.css.map",
+    "main.4cac08a2.js.map": "/portfolio/static/js/main.4cac08a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e091c29.css",
-    "static/js/main.b4cb9fcc.js"
+    "static/css/main.5d762357.css",
+    "static/js/main.4cac08a2.js"
   ]
 }
