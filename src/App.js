@@ -49,7 +49,7 @@ const App = () => {
     information: [
       { title: "Birthday", value: "Jun 1996" },
       { title: "Location", value: "D7, HCMC" },
-      { title: "Experiences", value: "4.5 years" },
+      { title: "Experiences", value: "5.5 years" },
     ],
     objective:
       "To obtain a position that will enable me to utilize my problem solving skills and attention to detail to further develop my abilities in the field of computer science.",
@@ -104,7 +104,7 @@ const App = () => {
       title: "PROJECTS",
       list: [
         {
-          title: "Platform Validation Tool",
+          title: "Platform Validation Tool (Ampere)",
           subtitle: "Ampere",
           daterange: "Aug 2021 - Present",
           description: [
@@ -114,7 +114,7 @@ const App = () => {
           ],
         },
         {
-          title: "Virtual Board System",
+          title: "Virtual Board System (Ampere)",
           subtitle: "Ampere",
           daterange: "Feb 2023 - Present",
           description: [
@@ -157,13 +157,13 @@ const App = () => {
         //   repository: "nirvanas.nhuongmh.github.io",
         // },
         {
-          title: "Facial Expression Recognition",
+          title: "Facial Expression Recognition (Bachelor Thesis)",
           subtitle: "Thesis",
           daterange: "Oct 2017 - Jun 2018",
           description: [
-            "My thesis is about how to give the correct music genre with a piece of music input.",
-            "I and one friend have researched artificial neural network, convolutional neural network, spectrogram of sound, etc. to complete this project.",
-            "We decided to use two models of ANN and CNN for deep learning in this field and when we combine two models, the accuracy is quite appreciable at 83 percent.",
+            "My thesis is about how to give the correct human facial expression based on real time video input.",
+            "I have researched artificial neural network, convolutional neural network, various image processing algorithms, etc. to complete this project.",
+            "The code is implemented using C++ and deployed on Rasperry Pi 3, the accuracy is 83%, 12fps.",
           ],
         },
       ],
@@ -204,7 +204,7 @@ const App = () => {
     },
     {
       title: "Database",
-      value: ["MySQL", "PostgresQL"],
+      value: ["MySQL", "PostgresQL", "MongoDB"],
     },
     {
       title: "Other",

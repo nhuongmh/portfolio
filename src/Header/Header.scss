@@ -54,8 +54,8 @@ $break: 768px;
       position: absolute;
       font-size: 30px;
       line-height: 1;
-      bottom: calc(5vw - 100px);
-      left: calc(33vw);
+      bottom: calc(5vw - 90px);
+      left: calc(25vw + 200px);
       z-index: 1;
       @media all and (max-width: $break) {
         font-size: 20px;
